@@ -14,7 +14,7 @@ for i in $(seq 1 25); do
     touch "Day$i/inputPart1.txt"
   fi
 
-  if [ ! -f "Day$i/inputPart2.txt" ]; then
-    touch "Day$i/inputPart2.txt"
-  fi
+  # if [ ! -f "Day$i/inputPart2.txt" ]; then
+  #   touch "Day$i/inputPart2.txt"
+  # fi
 done
